@@ -1,8 +1,8 @@
 # LELEC2330 — Opto-electronic and Power Devices
 ## Lecture Notes — Intrinsic Properties of Semiconductors (I)
 
-*Companion notes to the lecture slides. Academic year 2026–2027 — Prof. Laurent A. Francis, UCLouvain (ICTEAM Institute & Louvain Engineering School).*
-*References: [Ref] Neamen, Semiconductor Physics and Devices: Basic Principles, 4th ed., McGraw-Hill, 2012 (ISBN 978-0-07-352958-5); [1] Böer & Pohl, *Semiconductor Physics*, Springer 2018.*
+*Companion notes to the lecture slides. Academic year 2025–2026 — Prof. Laurent A. Francis, UCLouvain (ICTEAM Institute & Louvain Engineering School).*
+*Primary text: Neamen [Ref]; see the full **References** at the end.*
 
 > **License.** © Laurent A. Francis, UCLouvain. These notes are released under
 > [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). You may share and
@@ -349,3 +349,12 @@ How **charge carriers move** inside these materials (transport, effective mass) 
 - **Brillouin zone** — primitive cell of the reciprocal lattice (Wigner–Seitz cell in k-space).
 - **Density of states $g(E)$** — number of available states per unit energy.
 - **Direct / indirect gap** — conduction-band minimum and valence-band maximum at the same / different $k$.
+
+---
+
+## References
+
+- **[Ref]** D. A. Neamen, *Semiconductor Physics and Devices: Basic Principles*, 4th ed.,
+  McGraw-Hill, 2012. ISBN 978-0-07-352958-5.
+- **[1]** K. W. Böer & U. W. Pohl, *Semiconductor Physics*, Springer International Publishing, 2018.
+  https://doi.org/10.1007/978-3-319-69150-3
