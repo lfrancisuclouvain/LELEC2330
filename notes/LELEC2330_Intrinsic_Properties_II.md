@@ -77,6 +77,10 @@ flat bands → heavy carriers.
 In 3D, $m^*$ is a **second-rank tensor** $\left(\frac{1}{m^*}\right)_{ij}=\frac{1}{\hbar^2}\frac{\partial^2E}{\partial k_i\partial k_j}$,
 which can be **diagonalized** to at most **three** principal masses.
 
+![Sharp vs flat E(k) bands illustrating small vs large effective mass.](../figures/effective_mass_curvature.svg)
+
+*Effective mass is the inverse curvature of E(k): a sharp band gives a light carrier, a flat band a heavy one. Original figure.*
+
 ### 1.5 Parabolic approximation
 
 Devices operate with carriers near the **band extrema**, so expand $E(k)$ to second order around
@@ -107,6 +111,10 @@ This is exactly the current of a fictitious particle of **charge $+e$** moving a
 velocity** as the missing electron — a **hole**. Holes are the bookkeeping device that lets us
 track a nearly-full valence band by following the few empty states instead of the ~$10^{23}$
 electrons.
+
+![A nearly-full valence band with one missing electron, defining a hole.](../figures/hole_construction.svg)
+
+*A hole is the one empty state in a nearly-full valence band; a full band carries no current. Original figure.*
 
 ### 1.7 Properties of electrons and holes
 
@@ -159,6 +167,10 @@ At $E=E_F$ the occupancy is exactly $1/2$; the transition sharpens as $T\to 0$.
 > **Why the Fermi level matters.** It fixes the **equilibrium carrier concentrations**, the
 > **built-in voltage** and the maximum achievable voltage of a solar cell, and the **injection
 > efficiency** and radiative-recombination probability of an LED.
+
+![Fermi–Dirac distribution f(E) at three temperatures, with the step softening as T rises.](../figures/fermi_dirac_temperature.svg)
+
+*The Fermi–Dirac distribution: a step at T=0 (f=1/2 at E_F) that softens as temperature rises. Original figure.*
 
 ### 2.3 Density of states near a band edge
 
@@ -282,6 +294,10 @@ Two scattering mechanisms dominate, with **opposite** temperature trends:
 They combine by **Matthiessen's rule**, $\dfrac{1}{\mu}=\dfrac{1}{\mu_L}+\dfrac{1}{\mu_I}$, so doping
 (more impurities) and temperature both degrade mobility, dominating in different regimes.
 
+![Mobility versus temperature: lattice and impurity scattering combining by Matthiessen's rule.](../figures/mobility_temperature.svg)
+
+*Mobility vs temperature: impurity scattering (∝T^{3/2}) dominates at low T, phonon scattering (∝T^{−3/2}) at high T. Original figure.*
+
 ### 3.6 Velocity saturation and hot carriers
 
 At 300 K the mean thermal energy is $\sim\tfrac32 k_BT\approx 39$ meV, a thermal velocity
@@ -314,6 +330,10 @@ So the Hall effect delivers two things at once: the **sign of $R_H$ tells whethe
 n- or p-type**, and its **magnitude gives the carrier concentration**. Combined with a conductivity
 measurement ($\sigma=ne\mu$), it also yields the **mobility** — this is the standard way to
 characterize a semiconductor.
+
+![Hall-bar schematic: current, perpendicular field, and the transverse Hall voltage.](../figures/hall_effect.svg)
+
+*The Hall effect: a perpendicular field deflects carriers, building a transverse Hall voltage whose sign gives the carrier type. Original figure.*
 
 ### 4.3 Practical measurement and devices
 

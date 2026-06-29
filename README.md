@@ -25,6 +25,19 @@ throughout to two guiding devices, the **solar cell** and the **LED**.
   3. Electrical parameters (drift, mobility, resistivity, velocity saturation)
   4. The Hall effect and cyclotron resonance
 
+- [`notes/LELEC2330_Intrinsic_Properties_III.md`](notes/LELEC2330_Intrinsic_Properties_III.md)
+  — **Lecture III**, in six parts:
+  1. Electromagnetic & dielectric foundations (complex index, absorption)
+  2. Reflection, interfaces & ellipsometry
+  3. Dispersion & the dielectric function (Kramers–Kronig)
+  4. Optical transitions: absorption & emission (Fermi's golden rule, JDOS, direct/indirect edges)
+  5. Anti-reflective coatings & light management
+  6. Strain effects & piezoresistivity
+
+- [`notes/LELEC2330_Formulaire.md`](notes/LELEC2330_Formulaire.md)
+  — **Formula sheet**: a consolidated reference with physical constants and every key equation from
+  Lectures I–III, plus a 300 K reference-values table (Si / Ge / GaAs). Handy for revision.
+
   Each set of notes closes with a **quick-reference equation sheet** and a **glossary**.
 
 ## Reading the notes
@@ -39,12 +52,19 @@ pandoc notes/LELEC2330_Intrinsic_Properties_I.md -o notes.pdf --pdf-engine=xelat
 
 ## Scope and a note on figures
 
-To keep the repository clean of third-party copyright, **no textbook figures
-or slide images are included**. All figures in `figures/` are **original** schematics
-created for these notes (crystal planes, canonical potentials, level splitting,
-Kronig–Penney bands, reduced zone, Brillouin-zone construction, direct/indirect gap),
-covered by the same CC BY-SA 4.0 license. Bibliographic pointers (Neamen; Böer & Pohl; …)
-are given in the text so readers can consult the original sources.
+To keep the repository clean of third-party copyright, **no textbook figures or slide images are
+included**. Every figure in `figures/` is an **original** schematic created for these notes, covered
+by the same CC BY-SA 4.0 license:
+
+- *Lecture I* — Miller planes, canonical potentials, level→band splitting, Kronig–Penney bands,
+  reduced zone, Brillouin-zone construction, direct/indirect gap.
+- *Lecture II* — effective mass (band curvature), the hole, Fermi–Dirac vs temperature,
+  mobility vs temperature, the Hall effect.
+- *Lecture III* — Beer–Lambert absorption, direct/indirect absorption edge, Tauc plot,
+  quarter-wave ARC, piezoresistive pressure sensor.
+
+Bibliographic pointers (Neamen; Böer & Pohl; Grundmann; …) are given in the text so readers can
+consult the original sources.
 
 ## References
 
