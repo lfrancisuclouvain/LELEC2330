@@ -60,6 +60,10 @@ Crystal planes are labelled by **Miller indices** $(hkl)$, obtained from the rec
 
 Why this matters in practice: etch rates, cleavage, surface-state density and mobility all depend on orientation — e.g. silicon MOS technology is built on a specific surface orientation.
 
+![Miller-index planes (100), (110), (111) shaded inside a cubic cell.](../figures/miller_indices.svg)
+
+*The (100), (110) and (111) planes shaded in a cubic cell. Original figure.*
+
 ### 1.4 The semiconductor crystal structures
 
 - **Diamond structure** — two interpenetrating FCC sublattices, every atom tetrahedrally coordinated (**coordination number 4**). This is the structure of **Si** and **Ge**.
@@ -178,6 +182,10 @@ Solving the time-independent equation for simple $V(x)$ gives the textbook cases
 3. **Step potential** — partial reflection/transmission even when $E > V$; a purely wave phenomenon.
 4. **Potential barrier** — the wavefunction is non-zero *inside* and *beyond* a barrier even when $E < V$: **quantum tunneling**.
 
+![The four canonical potentials: free electron, infinite well, step, and barrier (tunneling).](../figures/canonical_potentials.svg)
+
+*The four canonical potentials and their wavefunctions: free electron, infinite well (discrete levels), step, and barrier (tunneling). Original figure.*
+
 ### 2.8 Tunneling in real devices
 
 Tunneling is not a curiosity — it is engineered into:
@@ -209,6 +217,10 @@ Take two hydrogen atoms. Each isolated atom has a discrete $n=1$ level. Bring th
 
 Bands that are completely or partially filled with valence electrons are the **valence bands**. In group-IV semiconductors, $sp^3$ **hybridization** of the four valence electrons produces the bonding/antibonding bands separated by the gap.
 
+![Discrete atomic levels broadening into energy bands as atoms approach.](../figures/atomic_levels_to_bands.svg)
+
+*As atoms approach, each discrete level splits and broadens into a band; a gap E_g remains at the equilibrium spacing a0. Original figure.*
+
 ### 3.2 Bloch's theorem
 
 In a periodic potential, the eigenstates are plane waves **modulated by a function with the lattice periodicity**:
@@ -232,6 +244,10 @@ where $P$ measures the **transparency / strength of the barriers**. Because the 
 
 Electrons in a real crystal sit **between** these extremes: a *deformed* parabola with gaps.
 
+![Kronig–Penney function with the allowed band where |f| ≤ 1 and forbidden gaps.](../figures/kronig_penney_bands.svg)
+
+*Allowed energy bands occur only where |f(αa)| ≤ 1; the intervals outside the band are the forbidden gaps. Original figure.*
+
 ### 3.4 Free-electron reference (Sommerfeld)
 
 For the free electron the dispersion is the simple parabola
@@ -251,6 +267,10 @@ A localized electron is a **wave packet** built from many $k$; in a dispersive m
 ### 3.6 Reduced-zone representation
 
 Because $E(k)$ is periodic in $k$ with period $2\pi/a$, all the information lives in one period: the **reduced-zone scheme**. Folding the bands back into this interval gives the familiar stacked-band $E(k)$ picture (allowed bands separated by gaps), with a parallel real-space view $E(x)$.
+
+![Extended-zone parabola folded into the first Brillouin zone (reduced-zone scheme).](../figures/reduced_zone_scheme.svg)
+
+*The free-electron parabola (extended zone, left) folds into the first Brillouin zone (reduced zone, right). Original figure.*
 
 ### 3.7 Density of states (DOS)
 
@@ -336,6 +356,10 @@ This is the slide everything was built for.
 > **The whole guiding thread, in one line:** the *position in k-space* of the band extrema — i.e. the **nature of the gap** — decides whether a semiconductor prefers to **absorb** (solar cell) or **emit** (LED) light.
 
 ---
+
+![Direct gap (GaAs) versus indirect gap (Si) E(k) diagrams.](../figures/bands_direct_indirect_gap.svg)
+
+*Direct gap (GaAs): vertical photon transition. Indirect gap (Si): the offset minimum needs a phonon for Δk. Original figure.*
 
 ## 4. Take-home messages
 

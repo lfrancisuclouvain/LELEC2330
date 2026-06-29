@@ -40,10 +40,11 @@ pandoc notes/LELEC2330_Intrinsic_Properties_I.md -o notes.pdf --pdf-engine=xelat
 ## Scope and a note on figures
 
 To keep the repository clean of third-party copyright, **no textbook figures
-or slide images are included**. The only figure
-(`figures/brillouin_zone_construction.svg`) is an **original** schematic created
-for these notes, covered by the same CC BY-SA 4.0 license. Bibliographic pointers
-(Neamen; Böer & Pohl; …) are given in the text so readers can consult the original sources.
+or slide images are included**. All figures in `figures/` are **original** schematics
+created for these notes (crystal planes, canonical potentials, level splitting,
+Kronig–Penney bands, reduced zone, Brillouin-zone construction, direct/indirect gap),
+covered by the same CC BY-SA 4.0 license. Bibliographic pointers (Neamen; Böer & Pohl; …)
+are given in the text so readers can consult the original sources.
 
 ## References
 
