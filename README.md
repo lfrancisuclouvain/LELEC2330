@@ -2,7 +2,7 @@
 
 Open lecture notes for **LELEC2330 – Opto-electronic and Power Devices**
 (master in electrical engineering, UCLouvain).
-Author: **Prof. Laurent A. Francis**, UCLouvain (ICTEAM).
+Author: **Prof. Laurent A. Francis**, UCLouvain (ICTEAM Institute & Louvain Engineering School).
 
 These notes are a written, prose companion to the lecture slides on the
 *intrinsic properties of semiconductors*: crystal structure, the quantum
