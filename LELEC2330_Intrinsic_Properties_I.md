@@ -1,7 +1,7 @@
 # LELEC2330 — Opto-electronic and Power Devices
 ## Lecture Notes — Intrinsic Properties of Semiconductors (I)
 
-*Companion notes to the lecture slides. Academic year 2025–2026 — Prof. Laurent A. Francis, UCLouvain (ICTEAM).*
+*Companion notes to the lecture slides. Academic year 2025–2026 — Prof. Laurent A. Francis, UCLouvain (ICTEAM Institute & Louvain Engineering School).*
 *References: [Ref] Neamen, *Semiconductor Physics and Devices*, 4th ed.; [1] Böer & Pohl, *Semiconductor Physics*, Springer 2018.*
 
 > **License.** © Laurent A. Francis, UCLouvain. These notes are released under
