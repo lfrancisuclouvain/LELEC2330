@@ -264,9 +264,51 @@ Two points worth holding onto:
 
 DOS will be combined with the occupation statistics (Fermi–Dirac) in the next lecture to get **carrier concentrations**.
 
-### 3.8 Brillouin zones and reciprocal space
+### 3.8 Building the Brillouin zone
 
-The natural arena for $E(k)$ is **reciprocal (k-) space**. The **first Brillouin zone** is the primitive cell of the reciprocal lattice (the **Wigner–Seitz cell** of reciprocal space). Real band structures are plotted along high-symmetry directions of this zone.
+The natural arena for $E(k)$ is **reciprocal (k-) space**. The **first Brillouin zone (BZ)** is the
+fundamental cell of that space; it is built in three steps.
+
+**Step 1 — The reciprocal lattice.** From the direct-lattice primitive vectors
+$\mathbf a_1,\mathbf a_2,\mathbf a_3$, define the **reciprocal primitive vectors** by the duality
+condition $\mathbf b_i\cdot\mathbf a_j=2\pi\,\delta_{ij}$, i.e.
+
+$$\mathbf b_1=2\pi\,\frac{\mathbf a_2\times\mathbf a_3}{\mathbf a_1\cdot(\mathbf a_2\times\mathbf a_3)},
+\quad\text{and cyclic for } \mathbf b_2,\mathbf b_3 .$$
+
+The $\mathbf b_i$ generate the **reciprocal lattice** — the set of wavevectors $\mathbf G$ for which
+$e^{i\mathbf G\cdot\mathbf R}=1$ on every direct-lattice point $\mathbf R$. This is the lattice on
+which $\mathbf k$ lives. A useful fact: under this map an **FCC** direct lattice becomes **BCC** in
+reciprocal space, and a **BCC** direct lattice becomes **FCC**.
+
+**Step 2 — The Wigner–Seitz construction (in k-space).** Pick a reciprocal-lattice point as origin.
+Draw the vectors $\mathbf G$ to all *neighbouring* reciprocal-lattice points and bisect each one with
+a **perpendicular plane**. The smallest volume around the origin enclosed by these planes is the
+**first Brillouin zone** — by construction the **Wigner–Seitz cell of the reciprocal lattice**. (The
+same recipe applied in *real* space gives the ordinary Wigner–Seitz cell of §1.2.)
+
+**Step 3 — Why those bisecting planes matter.** They are exactly the **Bragg planes**: a wave whose
+$\mathbf k$ reaches a zone boundary satisfies the Bragg condition, is reflected, and forms a standing
+wave. This is precisely where the **group velocity vanishes** (§3.5) and where the **energy gaps
+open** (§3.3, §3.6). The BZ boundary is therefore not an arbitrary box but the *locus of Bragg
+reflection* — which is why all the interesting band physics happens at its edges and why the
+reduced-zone scheme folds everything back inside it.
+
+**Shapes, and silicon.** The BZ shape follows from the reciprocal lattice: simple-cubic → cubic BZ;
+BCC direct → FCC reciprocal → **rhombic-dodecahedron** BZ; FCC direct → BCC reciprocal →
+**truncated-octahedron** BZ. **Silicon** (diamond = FCC lattice) thus has a truncated-octahedron BZ.
+Band structures are plotted along high-symmetry directions joining special points — $\Gamma$ (zone
+centre), $X$ (centre of a square face), $L$ (centre of a hexagonal face). Silicon's conduction-band
+minimum lies **along $\Gamma\!\to\!X$** (about 85 % of the way to $X$) while its valence-band maximum
+is at $\Gamma$ → an **indirect** gap; in **GaAs** both extrema sit at $\Gamma$ → a **direct** gap
+(§3.10). The BZ is also the finite $\mathbf k$-volume over which the density of states (§3.7) is
+counted.
+
+![Wigner–Seitz construction of the first Brillouin zone (left) and the schematic silicon Brillouin zone with high-symmetry points Γ, X, L (right).](../figures/brillouin_zone_construction.svg)
+
+*Left: the first Brillouin zone is the smallest cell enclosed by the perpendicular bisectors of the
+reciprocal-lattice vectors **G** (Wigner–Seitz cell). Right: silicon's truncated-octahedron zone,
+with the conduction-band minimum off-centre along Γ→X (indirect gap). Schematic, original figure.*
 
 ### 3.9 Computing real 3D band structures
 
