@@ -1,8 +1,8 @@
 # LELEC2330 — Opto-electronic and Power Devices
 ## Lecture Notes — Intrinsic Properties of Semiconductors (II)
 
-*Companion notes to the lecture slides. Prof. Laurent A. Francis, UCLouvain (ICTEAM Institute & Louvain School of Engineering).*
-*References: [Ref] Neamen, *Semiconductor Physics and Devices: Basic Principles*, 4th ed., McGraw-Hill, 2012 (ISBN 978-0-07-352958-5); [1] Böer & Pohl, *Semiconductor Physics*, Springer, 2018; [2] Patterson & Bailey, *Solid-State Physics*, 2nd ed., Springer, 2010; [3] Karsenty, “Integrated Hall Effects…”, *Sensors* 20:4163 (2020); [6] Grundmann, *The Physics of Semiconductors*, 2nd ed., Springer, 2010; [7] L.-Q. Chen, “Chemical Potentials…”, Springer, 2022.*
+*Companion notes to the lecture slides. Prof. Laurent A. Francis, UCLouvain (ICTEAM Institute & Louvain Engineering School).*
+*Primary text: Neamen [Ref]; see the full **References** at the end.*
 
 > **License.** © Laurent A. Francis, UCLouvain. Released under
 > [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Share and adapt with
@@ -440,3 +440,23 @@ The electron:hole mobility ratio is roughly 3:1 in Si and over 20:1 in GaAs.
   exceed thermal energies.
 - **Hall coefficient $R_H$** — transverse-field response giving carrier sign and density.
 - **Cyclotron frequency $\omega_c$** — orbital frequency $eB/m^*$ used to measure effective mass.
+
+---
+
+## References
+
+- **[Ref]** D. A. Neamen, *Semiconductor Physics and Devices: Basic Principles*, 4th ed.,
+  McGraw-Hill, 2012. ISBN 978-0-07-352958-5.
+- **[1]** K. W. Böer & U. W. Pohl, *Semiconductor Physics*, Springer International Publishing, 2018.
+  https://doi.org/10.1007/978-3-319-69150-3
+- **[2]** J. D. Patterson & B. C. Bailey, *Solid-State Physics: Introduction to the Theory*,
+  2nd ed., Springer-Verlag Berlin Heidelberg, 2010. https://doi.org/10.1007/978-3-642-02589-1
+- **[3]** A. Karsenty, “A Comprehensive Review of Integrated Hall Effects in Macro-, Micro-,
+  Nanoscales, and Quantum Devices”, *Sensors* 20(15):4163 (2020).
+  https://doi.org/10.3390/s20154163
+- **[6]** M. Grundmann, *The Physics of Semiconductors: An Introduction Including Nanophysics
+  and Applications*, 2nd ed., Graduate Texts in Physics, Springer, 2010.
+  https://doi.org/10.1007/978-3-642-13884-3
+- **[7]** L.-Q. Chen, “Chemical Potentials of Gases, Electrons, Crystals, and Defects”, in
+  *Thermodynamic Equilibrium and Stability of Materials*, Springer, Singapore, 2022.
+  https://doi.org/10.1007/978-981-13-8691-6_10
