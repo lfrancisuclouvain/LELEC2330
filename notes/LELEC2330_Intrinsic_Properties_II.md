@@ -1,7 +1,7 @@
 # LELEC2330 — Opto-electronic and Power Devices
 ## Lecture Notes — Intrinsic Properties of Semiconductors (II)
 
-*Companion notes to the lecture slides. Prof. Laurent A. Francis, UCLouvain (ICTEAM).*
+*Companion notes to the lecture slides. Prof. Laurent A. Francis, UCLouvain (ICTEAM Institute & Louvain School of Engineering).*
 *References: [Ref] Neamen, *Semiconductor Physics and Devices: Basic Principles*, 4th ed., McGraw-Hill, 2012 (ISBN 978-0-07-352958-5); [1] Böer & Pohl, *Semiconductor Physics*, Springer, 2018; [2] Patterson & Bailey, *Solid-State Physics*, 2nd ed., Springer, 2010; [3] Karsenty, “Integrated Hall Effects…”, *Sensors* 20:4163 (2020); [6] Grundmann, *The Physics of Semiconductors*, 2nd ed., Springer, 2010; [7] L.-Q. Chen, “Chemical Potentials…”, Springer, 2022.*
 
 > **License.** © Laurent A. Francis, UCLouvain. Released under
