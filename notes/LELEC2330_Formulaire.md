@@ -1,8 +1,8 @@
 # LELEC2330 — Opto-electronic and Power Devices
-## Formula Sheet (Intrinsic Properties of Semiconductors I–III)
+## Formula Sheet (Intrinsic Properties I–III & Extrinsic Properties)
 
 *Consolidated reference for Prof. L. A. Francis's LELEC2330 lecture notes.*
-*Symbols and conventions follow the three lecture notes in this repository.*
+*Symbols and conventions follow the lecture notes in this repository.*
 
 > **License.** © Laurent A. Francis, UCLouvain. Released under
 > [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
@@ -129,7 +129,56 @@
 
 ---
 
-## 4. Reference values at 300 K
+## 4. Extrinsic Properties — doping, junctions and devices
+
+### Doping and ionization
+| Concept | Relation |
+|---|---|
+| Hydrogenic ionization energy | $E_{\text{ion}}=13.6\,\text{eV}\,(m^*/m_0)/\varepsilon_r^2$ |
+| Scaled Bohr radius | $r_n=(\varepsilon_r/(m^*/m_0))\,n^2 a_0$ |
+| n-type / p-type density | $n_0\approx N_D$, $\ p_0\approx N_A$ |
+| Donor ionization | $N_D^+=N_D/[1+g\,e^{(E_F-E_D)/k_BT}]$, $g=2$ |
+
+### Fermi level and neutrality
+| Concept | Relation |
+|---|---|
+| Intrinsic level | $E_{Fi}=\dfrac{E_c+E_v}{2}+\dfrac{k_BT}{2}\ln\dfrac{N_v}{N_c}$ |
+| Fermi level (n-type) | $E_F-E_{Fi}=k_BT\ln(N_D/n_i)$ |
+| Fermi level (p-type) | $E_{Fi}-E_F=k_BT\ln(N_A/n_i)$ |
+| Charge neutrality | $n_0+N_A^-=p_0+N_D^+$ |
+| Degeneracy criterion | $\lvert E_c-E_F\rvert\lesssim 3k_BT$ → use full Fermi–Dirac |
+
+### Transport and recombination
+| Concept | Relation |
+|---|---|
+| Einstein relation | $D/\mu=k_BT/q\ (\approx 26\ \text{mV})$ |
+| Excess decay | $\delta n(t)=\delta n(0)\,e^{-t/\tau}$, $\ R=\delta n/\tau$ |
+| Ambipolar diffusion | $D'=\dfrac{(n+p)D_nD_p}{nD_n+pD_p}$ |
+| Dielectric relaxation | $\tau_d=\varepsilon/\sigma=\rho\varepsilon$ |
+| Quasi-Fermi product | $np=n_i^2\,e^{(E_{Fn}-E_{Fp})/k_BT}$ |
+
+### Metals, Schottky and ohmic contacts
+| Concept | Relation |
+|---|---|
+| Metal Fermi energy | $E_F=\dfrac{\hbar^2}{2m}(3\pi^2 n)^{2/3}$, $\ T_F=E_F/k_B$ |
+| Schottky barrier | $\phi_B=\Phi_m-\chi$, $\ V_{bi}=\Phi_m-\Phi_s$ |
+| Depletion width | $W=\sqrt{2\varepsilon(V_{bi}-V)/qN_D}$ |
+| Junction capacitance | $C=\varepsilon A/W$;  $1/C^2$ vs $V$ → $N_D,V_{bi}$ |
+| Thermionic current | $J=A^{*}T^2 e^{-\phi_B/k_BT}(e^{qV/k_BT}-1)$ |
+| Ohmic contact (tunnel) | $R_c\propto\exp(\phi_B/\sqrt{N_D})$ |
+
+### Optical devices
+| Concept | Relation |
+|---|---|
+| Exciton series | $E_n=E_g-E_b/n^2$ |
+| External QE | $\eta_{EQE}=(1-R)(1-e^{-\alpha d})\eta_{\text{coll}}$ |
+| Responsivity | $\mathcal R=\eta_{EQE}\,q\lambda/hc$; cutoff $\lambda_c=hc/E_g$ |
+| LED peak / linewidth | $h\nu\approx E_g+\tfrac12 k_BT$; $\Delta E\approx1.8k_BT$ |
+| Laser modes / inversion | $\Delta\lambda=\lambda^2/2nL$; $E_{Fn}-E_{Fp}>h\nu$ |
+
+---
+
+## 5. Reference values at 300 K
 
 | Quantity | Si | Ge | GaAs |
 |---|---|---|---|
@@ -144,3 +193,7 @@
 
 *Canonical textbook values (Neamen, Appendix B). $n_i$ for Si is the course value
 $1.5\times10^{10}$; recent measurements give $\approx 1.0\times10^{10}$ — state your convention.*
+
+**Extrinsic / device values (300 K):** thermal voltage $k_BT/q=25.9$ mV; Si shallow-dopant ionization
+$\approx45$ meV (P, B); Si electron affinity $\chi\approx4.05$ eV; Richardson constant $A=120$ A·cm⁻²·K⁻²;
+GaAs exciton binding $E_b\approx4$ meV; LED thermal linewidth $\approx1.8\,k_BT\approx47$ meV.
