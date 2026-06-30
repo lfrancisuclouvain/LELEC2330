@@ -34,6 +34,12 @@ throughout to two guiding devices, the **solar cell** and the **LED**.
   5. Anti-reflective coatings & light management
   6. Strain effects & piezoresistivity
 
+- [`notes/LELEC2330_Extrinsic_Properties.md`](notes/LELEC2330_Extrinsic_Properties.md)
+  — **Extrinsic Properties** (doping & junctions), in ten parts: donor/acceptor impurities; ionization
+  energies; Fermi level & carrier concentrations in doped material; generation & recombination; ambipolar
+  transport; the Fermi energy of metals; the Schottky diode; ohmic contacts; band-to-band absorption
+  (excitons, quantum efficiency); band-to-band recombination (LED, laser diode, photoluminescence).
+
 - [`notes/LELEC2330_Formulaire.md`](notes/LELEC2330_Formulaire.md)
   — **Formula sheet**: a consolidated reference with physical constants and every key equation from
   Lectures I–III, plus a 300 K reference-values table (Si / Ge / GaAs). Handy for revision.
@@ -62,6 +68,9 @@ by the same CC BY-SA 4.0 license:
   mobility vs temperature, the Hall effect.
 - *Lecture III* — Beer–Lambert absorption, direct/indirect absorption edge, Tauc plot,
   quarter-wave ARC, piezoresistive pressure sensor.
+- *Extrinsic Properties* — donor/acceptor levels, Fermi level vs doping & temperature,
+  Schottky barrier & thermionic emission, ohmic-contact tunnelling, excitons at the absorption edge,
+  LED vs laser spectrum.
 
 Bibliographic pointers (Neamen; Böer & Pohl; Grundmann; …) are given in the text so readers can
 consult the original sources.
